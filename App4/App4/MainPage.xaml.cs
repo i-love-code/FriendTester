@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using App4;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -33,12 +34,25 @@ namespace App4
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            dynamic parameter;
+
+            if (!e.Parameter)
+            {
+                parameter = e.Parameter;
+                _fb.AccessToken = parameter.access_token;
+                _userId = parameter.id;
+            }
         }
 
         private async void btnStart_Click_1(object sender, RoutedEventArgs e)
         {
             var dialog = new Windows.UI.Popups.MessageDialog("Hello");
             await dialog.ShowAsync();
+        }
+
+        private void ClickedTempSignInButton(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(SignInPage));
         }
     }
 }

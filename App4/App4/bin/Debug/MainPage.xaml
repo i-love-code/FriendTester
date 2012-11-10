@@ -7,8 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:ConnectionId='1' x:Name="btnStart" Content="Start"                          Margin="690,370,0,360" />
+    <Grid Background="#FF3E5A94">
+        <Button Content="Button" HorizontalAlignment="Left" Margin="100,255,0,0" VerticalAlignment="Top" Height="150" Width="400"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="100,445,0,0" VerticalAlignment="Top" Width="400" Height="150"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="725,255,0,0" VerticalAlignment="Top" Height="150" Width="330"/>
+        <Button x:ConnectionId='1' Content="Sign In Page" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.474" Height="63" Width="155"                                />
     </Grid>
 </Page>
 

@@ -5,3 +5,5 @@ Assets\StoreLogo.png
 App.xaml
 Common\StandardStyles.xaml
 MainPage.xaml
+SignInPage.xaml
+Images\facebook_login_button.png

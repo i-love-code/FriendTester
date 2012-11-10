@@ -11,5 +11,6 @@
         <Button Content="Button" HorizontalAlignment="Left" Margin="100,255,0,0" VerticalAlignment="Top" Height="150" Width="400"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="100,445,0,0" VerticalAlignment="Top" Width="400" Height="150"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="725,255,0,0" VerticalAlignment="Top" Height="150" Width="330"/>
+        <Button Content="Sign In Page" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.474" Height="63" Width="155" Click="ClickedTempSignInButton"/>
     </Grid>
 </Page>

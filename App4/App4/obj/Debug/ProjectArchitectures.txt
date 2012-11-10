@@ -1,1 +1,1 @@
-c:\users\asus\documents\visual studio 2012\Projects\App4\App4\App4.csproj;neutral
+C:\Users\ASUS\Desktop\FriendTester\App4\App4\App4.csproj;neutral

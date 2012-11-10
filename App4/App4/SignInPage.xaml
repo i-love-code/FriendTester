@@ -7,11 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#FF3E5A94">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Sign in with Facebook&#xD;&#xA;" Height="55" Width="309" Margin="531,340,0,373" Click="Button_Click_1" />
+        <Button Content="" Height="55" Width="309" Margin="531,340,0,373" Click="Button_Click_1" BorderThickness="0.0">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/facebook_login_button.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

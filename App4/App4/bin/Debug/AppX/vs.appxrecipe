@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASUS-PC</Machine>
+    <WindowsUser>ASUS</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>DAF4FAE4290166BCC1175A373403BCD9C4123752DEBB747438A905C9613BBD0B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6f8eae14-a94f-4cb8-8946-a830b0aee700_1.0.0.0_neutral__wkbqm3a0n06q2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6f8eae14-a94f-4cb8-8946-a830b0aee700_wkbqm3a0n06q2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6f8eae14-a94f-4cb8-8946-a830b0aee700</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ASUS</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-10T01:33:15.727</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\bin\Debug\App4.exe">
+      <PackagePath>App4.exe</PackagePath>
+      <Modified>2012-11-10T01:46:10.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\bin\Debug\App4.pdb">
+      <PackagePath>App4.pdb</PackagePath>
+      <Modified>2012-11-10T01:46:10.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-11-10T01:31:41.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-27T00:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-11-10T01:32:42.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\asus\documents\visual studio 2012\Projects\App4\App4\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-11-10T01:33:15.670</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
